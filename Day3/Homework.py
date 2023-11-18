@@ -2,9 +2,9 @@
 #აქედან მხოლოდ კენტები შეკრიბოს და დაპრინტოს 
 
 
-num_1 = int(input("Enter I number: "))
-num_2 = int(input("Enter II number: "))
-num_3 = int(input("Enter III number: "))
+# num_1 = int(input("Enter I number: "))
+# num_2 = int(input("Enter II number: "))
+# num_3 = int(input("Enter III number: "))
 
 # if (num_1%2 )!=0 and (num_2%2 )!=0 :
 #     print(num_1 + num_2)
@@ -25,3 +25,9 @@ num_3 = int(input("Enter III number: "))
 #     my_sum += num_3  # my_sum გაუტოლდა 7+13
 
 # print("the sum of odd numbers is {}".format (my_sum))
+
+
+a=9
+b=3
+
+print(a/b)

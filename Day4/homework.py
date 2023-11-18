@@ -22,4 +22,5 @@ if amount_of_consonant_in_name1 > amount_of_consonant_in_name2:
     print ("The amount of consonant in name 1 is more than name 2 and it contains {} consonants.".format(amount_of_consonant_in_name1))
 elif amount_of_consonant_in_name1 < amount_of_consonant_in_name2:
     print ("The amount of consonant in name 2 is more than name 1 and it contains {} consonants.".format(amount_of_consonant_in_name2))
-else: print ("they contains aqual consonant")
+else: 
+    print ("they contains aqual consonant")

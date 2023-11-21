@@ -10,7 +10,7 @@
 # i=0
 # for food in my_list:
 #     print("{} girs {} lari.".format(food, prices[i]))
-#     i+=1
+    
 
 
 

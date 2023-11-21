@@ -23,4 +23,3 @@
 #         print(str(i) + " even")
 #     elif i % 2 != 0:
 #         print(str(i) + " odd")
-# i +=1

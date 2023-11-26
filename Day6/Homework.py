@@ -9,14 +9,7 @@
 
 # i=0
 # for food in my_list:
-#     print("{} girs {} lari.".format(food, prices[i]))
-<<<<<<< HEAD
-    
-=======
-#     
->>>>>>> 8e93fb6c4330bd5c62b78a91a462c919cefc8911
-
-
+#print("{} girs {} lari.".format(food, prices[i])
 
 #დავალება 4 ჯგუფი
 #მომხმარებლის ნიშნებისგან გამოიანგარიშება საშუალო არითმეტიკული და თუ ცხრაზე მეტი იქნება

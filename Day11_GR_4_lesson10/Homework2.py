@@ -24,6 +24,15 @@ for i in range(2):
     alphabet_arr.remove(choosen_alp)
 
 print(password)
+final_password = ""
 
-print("Password: ",password[0],password[1],password[2],password[3],password[4],password[5],password[6],password[7])
+for i in range(len(password)):
+    current_char = random.choice(password)
+    final_password += str(current_char)
+    password.remove(current_char)
+
+print("Final pasword: ", final_password)
+
+
+# print("Password: ",password[0],password[1],password[2],password[3],password[4],password[5],password[6],password[7])
     

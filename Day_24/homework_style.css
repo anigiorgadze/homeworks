@@ -1,0 +1,15 @@
+body {
+    background-color: rgba(255, 228, 196, 0.925);
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 43%;    
+}
+
+
+
+
+

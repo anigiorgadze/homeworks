@@ -8,3 +8,11 @@ def lovefunc( flower1, flower2 ):
         return True
     else:
         return False
+    
+
+#2
+def lovefunc( flower1, flower2 ):
+    if (flower1+flower2) % 2 == 0:
+        return False
+    return True
+        

@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Courgette&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Great+Vibes&family=Inter&family=Kode+Mono:wght@400..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Sacramento&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+
+}
+header nav{
+    padding-left: 20px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* .header-top div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+} */
+
+.header-top-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    gap: 10px;
+}
+.header-top-left p{
+    font-size: 13px;
+}
+
+.header-top-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+
+/* navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.title-menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+.title-menu-container .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    list-style:none;
+}
+
+
+.title-menu-container .menu li{
+    font-weight: 700;
+    font-family:cursive;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    font-family:"Courgette", cursive; 
+    color: orange;
+}
+
+
+
+
+.navbar-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 19%;
+   
+}
+.navbar-buttons button{
+    /* margin: 10px; */
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+} 
+
+.navbar-buttons i{
+    font-size: 25px;
+
+}
+
+
+/*main*/
+/* .main-conatiner{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .main-img{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+} */
+.main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-image: url(/Day_46/img/dog_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+
+}
+
+.main-section .main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+.main-section .main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 90%;
+    gap: 20px;
+}
+
+
+
+.main-section div h1{
+    font-size: 50px;
+    color: #fff;
+    line-height: 60px;
+    margin: 10px;
+    font-family: "Courgette", cursive;
+    
+}
+
+.main-section div p{
+    color:#fff;
+    width: 50%;
+    margin: 10px;
+
+}
+
+.main-section div button {
+    padding: 15px 25px;
+    color: #fff;
+    background-color:orange;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    width: 150px;
+    
+}
+
+.left-paw{
+    margin: 10px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    
+}
+
+
+.right-paw{
+    margin: 10px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.slide{
+    display: flex;
+    gap: 5px;
+
+}
+
+.slide .circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff71;
+
+}
+
+.slide :first-child{
+    background-color: #fff;
+}
+
+.add-info{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: -15px;
+    margin-right: 20px;
+
+}
+
+.add-info i{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color:rgb(209, 19, 19);
+    border-radius: 50%;
+    
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+}
+
+.services div{
+    padding: 20px;
+    width: 33.3%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.services  div img{
+    width: 100px;
+}
+
+.services div:nth-child(2){
+    border-left: 2px solid rgba(255, 145, 0, 0.486);
+    border-right: 2px solid rgba(255, 145, 0, 0.527);
+}
+
+.services div button{
+    padding: 10px 20px;
+    border: 2px solid orange;
+   color: orange;
+   border-radius: 20px;
+   background-color: #fff;
+   cursor: pointer;
+}
+
+.services div p{
+    font-family:"Courgette", cursive;
+    font-weight:700;
+    font-size: 25px;
+    color: orange;
+    width: 30%;
+    text-align: center;
+
+}

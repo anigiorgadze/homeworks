@@ -1,0 +1,32 @@
+button{
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 2s;
+}
+
+
+button:hover{
+    background-color: green;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 100px;
+    transition: 1s;
+}
+
+
+.div:hover{
+    /* transform: translate(500px, 500px); */
+    /* transform: rotate(360deg); */
+    transform: scale(1.1);
+}

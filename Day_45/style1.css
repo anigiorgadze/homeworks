@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12, 21, 65);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: red;
+    font-weight: 600;
+    animation-name: header;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    z-index: 11;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    animation-name: header;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.navbar{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+
+}
+.navbar i{
+    margin: 0px 5px;
+}
+
+.navbar button{
+    padding: 20px;
+    background-color: rgb(12, 21, 65);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding: 50px;
+    animation-name: title;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    margin-left: 80px;
+    
+
+}
+
+.title h1{
+    font-size: 70px;
+}
+
+.title button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    box-shadow: 0px 0px 5px #fff;
+    font-size: 17px;
+    font-weight: 400;
+    transition: 1s;
+    cursor:pointer;
+   
+}
+
+.video{
+    width: 50%;
+    animation-name: video;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+video{
+    width: 100%;
+}
+
+@keyframes header{
+    from{
+        transform: translateY(-200px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+
+}
+
+@keyframes title{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes video{
+    from{
+        transform:translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+        
+    }
+}
+
+.title button:hover{
+    width: 250px;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}

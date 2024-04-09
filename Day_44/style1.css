@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Great+Vibes&family=Inter&family=Kode+Mono:wght@400..700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&family=Pacifico&family=Protest+Strike&family=Sacramento&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:hsl(217, 54%, 11%) ;
+    font-family:Outfit ;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color:hsl(216, 50%, 16%) ;
+    border-radius: 10px;
+    height: 60%;
+    justify-content: space-around;
+    width: 20%;
+    align-items: center;
+    
+}
+
+.main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.img{
+    position: relative;
+    width: 300px;
+    border-radius: 10px;
+    z-index: 999;}
+
+.cover{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgba(0, 128, 58, 0.74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+.cover span{
+    color: #fff;
+    font-size: 40px;
+}
+
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-top: 15px;
+    width: 90%;
+ 
+}
+
+.main-div h1{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.main-div p{
+    font-size: 18px;
+    color:  hsl(215, 51%, 70%);
+    line-height: 25px;
+    white-space: 5px;
+    font-weight: 300;
+} 
+
+.time{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 20px 0px;
+    border-bottom: 0.4px solid  hsla(215, 52%, 70%, 0.404);
+
+
+}
+
+.eth{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    align-items: center;
+   
+}
+
+.day{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    color:  hsl(215, 51%, 70%);
+}
+
+.autor{
+    display: flex;
+    width: 90%;
+    gap: 20px;
+    align-items: center;
+    color:hsl(215, 51%, 70%) ;
+    padding-top: 20px;
+}
+
+
+.autor img{
+    width: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.autor span{
+    color: #fff;
+    font-weight: 600;
+}
+
+.img:hover{
+    opacity: -90%;
+    
+}

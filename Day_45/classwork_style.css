@@ -1,0 +1,72 @@
+.div1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transition: 1s;
+    background-color: green;
+    border: 1px solid black;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in; 
+    /*linear- თანაბრად მოძრაობს
+      ease - ნელა იწყებს,სწრაფდება,ნელა ამთავრებს;
+      ease-in - ნელა დაიწყოს და Cveulebriv დაასრულოს
+      ease-out - სწრაფადიწყებ, ნელა ასრულებს
+      ease-in-out - ნელა ჩქარდება და ნელა ამთავრებს;
+    /* animation-iteration-count:infinite; */
+ 
+}
+ 
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+@keyframes animation {
+    /* from{
+        transform: translateX(-1px);
+        background-color: green;
+    }
+    to{
+        transform: translateX(300px);
+        background-color: red;
+    } */
+    0%{
+        /* transform: translateX(-1px); */
+        background-color: green;
+        left: 0;
+        top: 0;
+        /* transform: rotate(90deg); */
+    }
+    /* 25%{
+        background-color: green;
+        left: 100px;
+        top:0;
+        transform: rotate(90deg);
+        transform: rotateY(180deg);
+    } */
+    50%{
+        background-color: aqua;
+        left: 90%;
+        /* top: 0; */
+        /* transform: rotate(180deg); */
+        
+    }
+    /* 75%{
+        background-color: yellow;
+        left: 0;
+        top:100px;
+        transform: rotatey(180deg);
+               
+    } */
+
+    100%{
+        
+        background-color: red;
+        left: 0;
+        top:0;
+
+    }
+}

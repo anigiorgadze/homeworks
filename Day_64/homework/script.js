@@ -43,6 +43,8 @@ let accArr = []
                     logName.value = ''
                     logPass.value = ''
                     alert.innerHTML = ''
+                }else{
+                    alert.innerHTML = "Password is incorrect"
                 }
             }}}else{  
                     alert.innerHTML = "Account is incorrect"
